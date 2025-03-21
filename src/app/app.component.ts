@@ -1,10 +1,11 @@
 import { Component, HostListener, OnInit, signal } from '@angular/core';
 import { MainComponent } from './layouts/main/main.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [MainComponent, SidebarComponent],
+  imports: [ RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })

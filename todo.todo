@@ -1,0 +1,14 @@
+Registration :
+ [x] Register module
+ [] Register layout
+ [] Install NgRx
+ [] Install Redux Devtools
+ [] Creating auth interface
+ [] Adding auth reducer
+ [] Creating auth seletor
+ [] Register service
+ [] Register effects
+ [] Register effects
+ [] Updating auth reducers
+ [] Backend error messages
+ [] Persistance service
