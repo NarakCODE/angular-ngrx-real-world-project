@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MessageViewComponent } from './message-view.component';
+import { DeliveryComponent } from './delivery.component';
 
-describe('MessageViewComponent', () => {
-  let component: MessageViewComponent;
-  let fixture: ComponentFixture<MessageViewComponent>;
+describe('DeliveryComponent', () => {
+  let component: DeliveryComponent;
+  let fixture: ComponentFixture<DeliveryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MessageViewComponent]
+      imports: [DeliveryComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MessageViewComponent);
+    fixture = TestBed.createComponent(DeliveryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

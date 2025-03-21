@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { MessageDetailsComponent } from '../message-details/message-details.component';
 import { MessageService } from '../services/message.service';
 
 @Component({
   selector: 'app-form',
-  imports: [FormsModule, CommonModule, MessageDetailsComponent],
+  imports: [FormsModule, CommonModule],
   templateUrl: './form.component.html',
   styleUrl: './form.component.scss',
 })

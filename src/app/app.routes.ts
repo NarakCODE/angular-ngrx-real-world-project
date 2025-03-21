@@ -1,28 +1,30 @@
 import { Routes } from '@angular/router';
-import { AboutComponent } from './pages/about/about.component';
-import { FormComponent } from './form/form.component';
-import { MessageViewComponent } from './pages/message-view/message-view.component';
-import { TodoComponent } from './pages/todo/todo.component';
+import { SigninComponent } from './pages/signin/signin.component';
+
+import { DeliveryComponent } from './pages/delivery/delivery.component';
+import { MenuComponent } from './pages/menu/menu.component';
+import { SettingsComponent } from './pages/settings/settings.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: FormComponent,
+    redirectTo: 'signin',
+    pathMatch: 'full',
   },
   {
-    path: 'about',
-    component: AboutComponent,
+    path: 'signin',
+    component: SigninComponent,
   },
   {
-    path: 'about',
-    component: AboutComponent,
+    path: 'menu',
+    component: MenuComponent,
   },
   {
-    path: 'message/:messageId',
-    component: MessageViewComponent,
+    path: 'delivery',
+    component: DeliveryComponent,
   },
   {
-    path: 'todos',
-    component: TodoComponent,
+    path: 'settings',
+    component: SettingsComponent,
   },
 ];
